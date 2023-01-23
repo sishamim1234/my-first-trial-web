@@ -106,7 +106,7 @@ main{
 /* about-info-container **15** used to form in line name, email, date of birth we have to use display : flex */
 .about-info-container{
     display: flex;
-    /* should be used at last portion of this part */
+    /* should be used at last portion of this part, it used to create gave btn name , email..and if we used flex then have to used justify */
     justify-content: space-around;
 }
 .about .info-title{
@@ -118,5 +118,86 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: #474747;
-       
+}
+/* What i do styles */
+.what{
+    margin-top: 30px;
+    text-align: center;
+    padding: 130px 150px;
+    
+}
+.what-title{
+    /* margin-top: 130px; */
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    /* text-align: center; */
+    /* padding: 130px 150px; */
+}
+.what-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    /* padding: 130px 150px; */
+  
+}
+.skills-container{
+    display: flex;
+    /* in flex we have to give gav */
+    gap: 24px;
+}
+/* background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px; */
+.skill{
+    background: #FFFFFF;
+   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+   border-radius: 5px;
+   padding: 30px;
+}
+.skill-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    font-weight: 400;
+    color: #757575;
+
+}
+/* resume summary**16** */
+.resume{
+    margin-top: 40px;
+}
+.resume-content{
+    display: flex;
+    /* gap will be provided after providing experience */
+    gap: 24px;
+}
+/* resume item er morday amara style krbo */
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+/* it will give after resume-item because we used horizental line after 1st part */
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 30px;
 }
