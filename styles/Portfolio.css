@@ -9,7 +9,7 @@ nav{
     /* to create distance between in line we have to code justify-contain space between and nav belong two instruction like h2 and ul *7**/
     justify-content: space-between;
     /* 8 */
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
